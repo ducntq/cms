@@ -20,7 +20,7 @@ export default withAuth(
     // the db sets the database provider - we're using sqlite for the fastest startup experience
     db: {
       provider: "postgresql",
-      url: "postgres://dbuser:dbpass@localhost:5432/keystone",
+      url: "postgres://dqnhuwnufpituy:289afa2e207ec119f609413b71897a633dec998f507a7be68eb186a21decbf3b@ec2-44-194-4-127.compute-1.amazonaws.com:5432/d9iupgka9if38g",
       enableLogging: true,
       useMigrations: true,
       idField: { kind: "uuid" },
